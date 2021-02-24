@@ -1,0 +1,17 @@
+.country {
+    background: $grey;
+    width: 320px;
+    height: 260px;
+
+    &__block {
+        display: flex;
+    }
+
+    &__title {
+        margin-left: 15px;
+    }
+
+    &--clear {
+        background-color: transparent;
+    }
+}

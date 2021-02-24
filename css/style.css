@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.continents {
+  max-width: 1200px;
+  max-height: 800px;
+  background: url(../img/map.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.continent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 370px;
+  height: 370px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.north-america {
+  background-color: rgba(43, 43, 153, 0.7);
+}
+
+.europe {
+  background-color: rgba(94, 16, 96, 0.7);
+}
+
+.asia {
+  background-color: rgba(172, 5, 5, 0.7);
+}
+
+.south-america {
+  background-color: rgba(43, 43, 153, 0.7);
+}
+
+.africa {
+  background-color: rgba(235, 235, 8, 0.7);
+}
+
+.australia {
+  background-color: rgba(231, 154, 10, 0.7);
+}
+
+.country {
+  background: rgba(104, 103, 103, 0.5);
+  width: 320px;
+  height: 260px;
+}
+
+.country__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.country__title {
+  margin-left: 15px;
+}
+
+.country--clear {
+  background-color: transparent;
+}
+
+.cities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+}
+
+.cities__title {
+  margin-bottom: 20px;
+}
+
+.city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.city__title {
+  margin: 0 0 0 5px;
+}
+/*# sourceMappingURL=style.css.map */

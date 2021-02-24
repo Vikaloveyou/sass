@@ -1,0 +1,15 @@
+@import "./vars";
+@import "./mixin";
+
+* {
+box-sizing: border-box;
+}
+
+img {
+display: block;
+}
+
+@import "./continents/continents";
+@import "./continents/bg-style";
+@import "./country/country";
+@import "./cities/cities";
