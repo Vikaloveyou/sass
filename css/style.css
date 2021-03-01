@@ -7,6 +7,18 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .continents {
   max-width: 1200px;
   max-height: 800px;
@@ -81,6 +93,18 @@ img {
   background-color: transparent;
 }
 
+.country__img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.country__img:hover {
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transform: scale(3);
+          transform: scale(3);
+}
+
 .cities {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,5 +132,17 @@ img {
 
 .city__title {
   margin: 0 0 0 5px;
+}
+
+.city__img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.city__img:hover {
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

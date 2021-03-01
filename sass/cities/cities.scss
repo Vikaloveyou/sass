@@ -15,4 +15,15 @@
     &__title {
         margin: 0 0 0 5px;
     }
+
+    &__img {
+        transition: 1s;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0;
+            transform: scale(1.2); 
+        }
+    } 
+
 }

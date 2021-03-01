@@ -14,4 +14,18 @@
     &--clear {
         background-color: transparent;
     }
+
+    &__img {
+        transition: 1s;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0;
+            transform: scale(3); 
+        }
+    }   
+
+  
+    
+    
 }
